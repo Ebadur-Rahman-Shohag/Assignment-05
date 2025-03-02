@@ -2,19 +2,13 @@ const date = new Date();
 const day = date.toLocaleDateString("en-US", {
     weekday: "long",
 });
-console.log(day);
-const formattedDate = date.toLocaleDateString("en-US", {
-    month: "long",
-    year: "numeric",
-});
 
-console.log(formattedDate);
+const formattedDate = `${date.toLocaleString("en-US", {
+    month: "long",
+})} ${date.getDate()} ${date.getFullYear()}`;
 
 document.getElementById("day").innerText = `${day},`;
 document.getElementById("date").innerText = formattedDate;
-
-
-
 
 // const date = new Date();
 const hours = date.getHours();
@@ -24,8 +18,7 @@ const seconds = date.getSeconds();
 let ampm;
 if (hours >= 12) {
     ampm = "PM";
-}
-else {
+} else {
     ampm = "AM";
 }
 
