@@ -33,7 +33,215 @@
       };
     </script>
   </head>
-  <body class="font-poppins">
-    <h1 class="text-5xl text-red-500">Hello World!</h1>
+  <body class="font-poppins bg-bg-primary">
+    <header class="container mt-6 mx-auto">
+      <nav
+        class="flex justify-between items-center p-4 bg-bg-secondary rounded-2xl"
+      >
+        <!-- left side container-->
+        <div class="flex items-center space-x-3">
+          <img class="" src="./assets/logo.png" alt="logo" />
+          <h2 class="text-4xl">Dev<span class="font-bold">Board</span></h2>
+        </div>
+        <!-- right side container-->
+        <div class="flex items-center space-x-14">
+          <div
+            class="flex items-center bg-bg-primary py-2 px-5 rounded-[32px] space-x-2"
+          >
+            <img class="w-8 h-8" src="./assets/checkbox.png" alt="logo" />
+            <h3 class="font-bold text-[32px]">23</h3>
+          </div>
+          <!-- button -->
+          <button class="w-16 h-16 bg-bg-primary rounded-full p-4">
+            <img src="./assets/theme-btn.png" alt="button-image" />
+          </button>
+        </div>
+      </nav>
+    </header>
+    <!-- main section -->
+    <main>
+      <section class="container  mx-auto grid grid-cols-4 gap-6 mt-5 pb-14">
+        <!-- left side container -->
+        <div class="col-span-3 bg-bg-secondary rounded-2xl">
+          <!-- header -->
+          <div class="w-full grid grid-cols-4 gap-4 p-4">
+            <!--header left side -->
+            <div
+              class="bg-bg-primary p-4 rounded-xl flex justify-center items-center space-x-5"
+            >
+              <div class="bg-bg-secondary p-4 rounded-full">
+                <img src="./assets/checkbox.png" alt="logo" />
+              </div>
+              <div>
+                <p class="font-medium text-base text-text-primary">
+                  Task Assigned 
+                </p>
+                <h3 class="font-bold text-[32px] text-text-secondary">05</h3>
+              </div>
+            </div>
+            <!-- header middle side -->
+            <div
+              class="col-span-2 bg-gradient-to-r from-[#3752FD] via-[#6C7FFA] to-[#9BA8F8] py-4 px-8 rounded-xl flex items-center space-x-5"
+            >
+              <div class="border-2 border-dashed border-gray-400">
+                <img src="./assets/board.png" alt="logo" />
+              </div>
+              <div class="font-medium text-2xl text-text-tertiary">
+                <p>Discover Something</p>
+                <h3>New Today!</h3>
+              </div>
+            </div>
+            <!-- header right side -->
+            <div
+              class="bg-bg-primary p-4 rounded-xl flex justify-center items-center space-x-5"
+            >
+              <div class="bg-bg-secondary p-4 rounded-full">
+                <img src="./assets/calender.png" alt="logo" />
+              </div>
+              <div>
+                <p class="font-medium text-base text-text-primary">Wed,</p>
+                <h3 class="font-bold text-xl text-text-secondary">
+                  Jul 28 2025
+                </h3>
+              </div>
+            </div>
+          </div>
+          <!-- border -->
+          <div class="w-full border-b border-dotted border-gray-300 mt-8"></div>
+          <!-- cards container -->
+          <div class="mt-8 w-full grid grid-cols-3 gap-9 p-4">
+            <!-- card - 1 -->
+            <div class="bg-bg-primary rounded-xl p-4">
+              <div class="bg-bg-secondary py-2 px-4 rounded-lg inline-block ">
+                <p class="font-normal text-base text-text-primary">ShopEase</p>
+              </div>
+              <h2 class="mt-4 font-medium text-2xl text-text-primary">Fix Mobile Button Issue</h2>
+              <div class="bg-bg-secondary p-4 rounded-lg mt-4">
+                <p class="font-normal text-base text-text-secondary">
+                  Debug using Chrome DevTools, check for overlapping...
+                </p>
+              </div>
+              <div class="mt-7 flex justify-between items-center">
+                <div>
+                  <p class="font-normal text-text-primary text-[14px]">Deadline</p>
+                  <h3 class="font-medium text-base text-text-primary">21 March 2025</h3>
+                </div>
+                <button class="bg-btn-primary py-2 px-4 rounded-lg font-medium text-text-tertiary text-base">Completed</button>
+              </div>
+            </div>
+             <!-- card - 2 -->
+             <div class="bg-bg-primary rounded-xl p-4">
+              <div class="bg-bg-secondary py-2 px-4 rounded-lg inline-block">
+                <p class="font-normal text-base text-text-primary">CloudSync</p>
+              </div>
+              <h2 class="mt-4 font-medium text-2xl text-text-primary">Add Dark Mode</h2>
+              <div class="bg-bg-secondary p-4 rounded-lg mt-4">
+                <p class="font-normal text-base text-text-secondary">
+                  Store the user's preference in localStorage, update CSS...
+                </p>
+              </div>
+              <div class="mt-7 flex justify-between items-center">
+                <div>
+                  <p class="font-normal text-text-primary text-[14px]">Deadline</p>
+                  <h3 class="font-medium text-base text-text-primary">21 March 2025</h3>
+                </div>
+                <button class="bg-btn-primary py-2 px-4 rounded-lg font-medium text-text-tertiary text-base">Completed</button>
+              </div>
+            </div>
+             <!-- card - 3 -->
+             <div class="bg-bg-primary rounded-xl p-4">
+              <div class="bg-bg-secondary py-2 px-4 rounded-lg inline-block">
+                <p class="font-normal text-base text-text-primary">SwiftPay</p>
+              </div>
+              <h2 class="mt-4 font-medium text-2xl text-text-primary">Optimize  Home page </h2>
+              <div class="bg-bg-secondary p-4 rounded-lg mt-4">
+                <p class="font-normal text-base text-text-secondary">
+                  Debug using Chrome DevTools, check for overlapping...
+                </p>
+              </div>
+              <div class="mt-7 flex justify-between items-center">
+                <div>
+                  <p class="font-normal text-text-primary text-[14px]">Deadline</p>
+                  <h3 class="font-medium text-base text-text-primary">21 March 2025</h3>
+                </div>
+                <button class="bg-btn-primary py-2 px-4 rounded-lg font-medium text-text-tertiary text-base">Completed</button>
+              </div>
+            </div>
+             <!-- card - 4 -->
+             <div class="bg-bg-primary rounded-xl p-4">
+              <div class="bg-bg-secondary py-2 px-4 rounded-lg inline-block">
+                <p class="font-normal text-base text-text-primary">Meta</p>
+              </div>
+              <h2 class="mt-4 font-medium text-2xl text-text-primary">Add new emoji 🤲</h2>
+              <div class="bg-bg-secondary p-4 rounded-lg mt-4">
+                <p class="font-normal text-base text-text-secondary">
+                  Debug using Chrome DevTools, check for overlapping...
+                </p>
+              </div>
+              <div class="mt-7 flex justify-between items-center">
+                <div>
+                  <p class="font-normal text-text-primary text-[14px]">Deadline</p>
+                  <h3 class="font-medium text-base text-text-primary">21 March 2025</h3>
+                </div>
+                <button class="bg-btn-primary py-2 px-4 rounded-lg font-medium text-text-tertiary text-base">Completed</button>
+              </div>
+            </div>
+             <!-- card - 5 -->
+             <div class="bg-bg-primary rounded-xl p-4">
+              <div class="bg-bg-secondary py-2 px-4 rounded-lg inline-block">
+                <p class="font-normal text-base text-text-primary">Google LLC</p>
+              </div>
+              <h2 class="mt-4 font-medium text-2xl text-text-primary">Integrate OpenAI API </h2>
+              <div class="bg-bg-secondary p-4 rounded-lg mt-4">
+                <p class="font-normal text-base text-text-secondary">
+                  Debug using Chrome DevTools, check for overlapping...
+                </p>
+              </div>
+              <div class="mt-7 flex justify-between items-center">
+                <div>
+                  <p class="font-normal text-text-primary text-[14px]">Deadline</p>
+                  <h3 class="font-medium text-base text-text-primary">21 March 2025</h3>
+                </div>
+                <button class="bg-btn-primary py-2 px-4 rounded-lg font-medium text-text-tertiary text-base">Completed</button>
+              </div>
+            </div>
+             <!-- card - 6 -->
+             <div class="bg-bg-primary rounded-xl p-4">
+              <div class="bg-bg-secondary py-2 px-4 rounded-lg inline-block">
+                <p class="font-normal text-base text-text-primary">Glassdoar</p>
+              </div>
+              <h2 class="mt-4 font-medium text-2xl text-text-primary">Improve Job searching </h2>
+              <div class="bg-bg-secondary p-4 rounded-lg mt-4">
+                <p class="font-normal text-base text-text-secondary">
+                  Debug using Chrome DevTools, check for overlapping...
+                </p>
+              </div>
+              <div class="mt-7 flex justify-between items-center">
+                <div>
+                  <p class="font-normal text-text-primary text-[14px]">Deadline</p>
+                  <h3 class="font-medium text-base text-text-primary">21 March 2025</h3>
+                </div>
+                <button class="bg-btn-primary py-2 px-4 rounded-lg font-medium text-text-tertiary text-base">Completed</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- right side container -->
+        <div class="bg-bg-secondary rounded-2xl">
+          <!-- content container -->
+          <div class="p-4 flex flex-col justify-center items-center">
+            <div class="flex items-center justify-center space-x-2">
+              <img src="./assets/activity.png" alt="logo">
+              <p class="font-medium text-xl text-text-primary">Activity Log</p>
+            </div>
+            <button class="mt-4 bg-btn-primary py-2 px-4 rounded-lg font-medium text-text-tertiary text-base">Clear History</button>
+            <div class="mt-6 bg-bg-primary p-4 rounded-xl">
+              <p class="font-normal text-base text-text-secondary">You have Complete The Task Add Dark Mode at 12:48:15 PM</p>
+            </div>
+          </div>
+     
+        </div>
+      </section>
+    </main>
   </body>
 </html>
