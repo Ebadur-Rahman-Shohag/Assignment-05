@@ -1,6 +1,6 @@
 document.getElementById("discover").addEventListener("click", function (event) {
     event.preventDefault();
-    window.location.href = "main.html";
+    window.location.href = "blog.html";
 });
 
 const buttonList = document.querySelectorAll("#complete-btn");
