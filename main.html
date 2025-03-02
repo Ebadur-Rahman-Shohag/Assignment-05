@@ -46,7 +46,7 @@
           <!-- right side container-->
           <div class="flex items-center space-x-14">
             <!-- back button -->
-          <button class="bg-btn-primary py-3 px-4 rounded-lg font-medium text-text-tertiary text-base">Back to Desk</button>
+          <button id="back-btn" class="bg-btn-primary py-3 px-4 rounded-lg font-medium text-text-tertiary text-base">Back to Desk</button>
           </div>
         </nav>
       </header>
@@ -63,39 +63,40 @@
                     <h1 class="p-4 font-bold text-base text-text-secondary">Question-1: What are the different ways to select an element in the DOM?</h1>
                     <!-- border -->
                     <div class=" w-full border-b-2 border-dotted border-gray-300 mt-2"></div>
-                    <p class="p-4 text-base text-text-primary">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam voluptatum minus maiores! Quod voluptatem, nam ipsa nostrum praesentium deleniti repellat pariatur fuga voluptatum! Corporis, animi necessitatibus nesciunt quia eos repudiandae.</p>
+                    <p class="p-4 text-base text-text-primary">There are many ways to select an element in the DOM. Here are some example 1.getElementById() 2. getElementsByClassName() 3. getElementsByTagName 4. querySelector() 5. querySelectorAll() etc.</p>
                  </div>
                   <!-- card - 2 -->
                   <div class="bg-bg-secondary  rounded-lg">
                     <h1 class="p-4 font-bold text-base text-text-secondary">Question-2: What is the difference between innerHTML, innerText, and textContent ?</h1>
                     <!-- border -->
                     <div class=" w-full border-b-2 border-dotted border-gray-300 mt-2"></div>
-                    <p class="p-4 text-base text-text-primary">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam voluptatum minus maiores! Quod voluptatem, nam ipsa nostrum praesentium deleniti repellat pariatur fuga voluptatum! Corporis, animi necessitatibus nesciunt quia eos repudiandae.</p>
+                    <p class="p-4 text-base text-text-primary">Here are some key differences between innerHTML, innerText, and textContent: 1. innerHTML gives  us the HTML content of an element. We can also set the HTML content of an element by using innerHTML 2. innerText gives  us the text content of an element. We can also set the text content of an element by using innerText 3. textContent and innerText are similar but textContent also gives the hidden text.</p>
                  </div>
                   <!-- card - 3 -->
                   <div class="bg-bg-secondary  rounded-lg">
                     <h1 class="p-4 font-bold text-base text-text-secondary">Question-3: What is event delegation in the DOM?</h1>
                     <!-- border -->
                     <div class=" w-full border-b-2 border-dotted border-gray-300 mt-2"></div>
-                    <p class="p-4 text-base text-text-primary">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam voluptatum minus maiores! Quod voluptatem, nam ipsa nostrum praesentium deleniti repellat pariatur fuga voluptatum! Corporis, animi necessitatibus nesciunt quia eos repudiandae.</p>
+                    <p class="p-4 text-base text-text-primary">Instead of using eventListener() to every individual element we can use a single eventListener() to the parent container. This technique is called event delegation.</p>
                  </div>
                   <!-- card - 4 -->
                   <div class="bg-bg-secondary  rounded-lg">
                     <h1 class="p-4 font-bold text-base text-text-secondary">Question-4: What is event bubbling in the DOM?</h1>
                     <!-- border -->
                     <div class=" w-full border-b-2 border-dotted border-gray-300 mt-2"></div>
-                    <p class="p-4 text-base text-text-primary">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam voluptatum minus maiores! Quod voluptatem, nam ipsa nostrum praesentium deleniti repellat pariatur fuga voluptatum! Corporis, animi necessitatibus nesciunt quia eos repudiandae.</p>
+                    <p class="p-4 text-base text-text-primary">When we use eventListener() in an element this evenetListener() is not only trigger on this element but also trigger on it's parent element and continues to move up until the document root is reached .</p>
                  </div>
                   <!-- card - 5 -->
                   <div class="bg-bg-secondary  rounded-lg">
                     <h1 class="p-4 font-bold text-base text-text-secondary">Question-5: How do you create, add, and remove elements using JavaScript?</h1>
                     <!-- border -->
                     <div class=" w-full border-b-2 border-dotted border-gray-300 mt-2"></div>
-                    <p class="p-4 text-base text-text-primary">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam voluptatum minus maiores! Quod voluptatem, nam ipsa nostrum praesentium deleniti repellat pariatur fuga voluptatum! Corporis, animi necessitatibus nesciunt quia eos repudiandae.</p>
+                    <p class="p-4 text-base text-text-primary">1. We can create an element by using document.createElement() 2. We can add an element by using appendChild() method 3. We can remove an element by using removeChild() method</p>
                  </div>
              </div>
        
         </section>
        </main>
+      <script src="./js/main.js"></script>
 </body>
 </html>
